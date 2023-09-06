@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+int n,m,k,input;
+k=2;
+printf("enter the capacity of the jar:");
+scanf("%d",&n);
+printf("enter the candies purchased:");
+scanf("%d",&input);
+m=n-input;
+printf("the jar now has %d candies",m);
+if(m==k)
+printf("jar reached minimum level!fill the jar wit %d candies",n-k);
+else
+printf("the jar has some more to sell");
+return 0;
+}
